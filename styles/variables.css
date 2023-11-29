@@ -1,1 +1,18 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+    --Inter-Variable: "Inter-Variable";
+    --PressStart2P-Regular: "PressStart2P-Regular";
+    --card-title__font-weight: 700;
+    --card-article__font-weight: 400;
+    --background-color: #FFFFFF;
+    --background-image-color-1:#d3d3d3;
+    --background-image-color-2:#e7e7e7;
+    --background-image-color-3:#1a1a1a;
+    --accent-color: #000000;
+    --min-width: 375px; 
+    --max-width: 1440px; 
+    --text-shadow:#FFFFFF;
+    --button-text-color:#ffffff;
+    --like-icon: red;
+    --like-icon-contour: #000;
+}
