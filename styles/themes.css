@@ -19,6 +19,7 @@
     --max-width: 1440px; 
     --text-shadow:#000000;
     --button-text-color:#00CC14;
+    --like-icon: red;
     --like-icon-contour: #00CC14;
 }
 
@@ -36,5 +37,6 @@
     --max-width: 1440px; 
     --text-shadow:#FFFFFF;
     --button-text-color:#ffffff;
+    --like-icon: red;
     --like-icon-contour: #000;
 }

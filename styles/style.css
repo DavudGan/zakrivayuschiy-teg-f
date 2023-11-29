@@ -59,7 +59,7 @@
 
 .header__main_title {
   color: var(--accent-color, #000);
-  font-family: var(--PressStart2P-Regular);
+  font-family: var(--PressStart2P-Regular, sans-serif);
   font-size: clamp(3.063rem, 2.715rem + 1.497vw, 4.063rem);
   font-weight: 400;
   text-transform: uppercase;
@@ -68,7 +68,7 @@
 
 .header__title {
   color: var(--accent-color, #000);
-  font-family: var(--PressStart2P-Regular);
+  font-family: var(--PressStart2P-Regular, sans-serif);
   font-size: clamp(0.875rem, 0.68rem + 0.842vw, 1.438rem);
   font-weight: 400;
   text-transform: uppercase;
@@ -85,7 +85,7 @@
 .theme-menu__button {
   position: relative;
   color: var(--accent-color, #000);
-  font-family: var(--PressStart2P-Regular);
+  font-family: var(--PressStart2P-Regular, sans-serif);
   font-size: 14px;
   font-weight: 400;
   text-transform: uppercase;
@@ -98,7 +98,7 @@
   position: absolute;
   left: -16px;
   color: var(--accent-color, #000);
-  font-family: var(--PressStart2P-Regular);
+  font-family: var(--PressStart2P-Regular, sans-serif);
   font-size: 14px;
   font-weight: 400;
   text-transform: uppercase;
@@ -123,8 +123,8 @@
   opacity: 0.6;
   background-color: var(--accent-color, #000);
   transform-origin: left;
-  transform: scaleX(0); /* Масштабирование в ноль */
-  transition: transform 0.3s ease; /* Настройка плавности для масштабирования */
+  transform: scaleX(0); 
+  transition: transform 0.3s ease; 
 }
 
 .theme-menu__button:focus-visible::after {
@@ -208,7 +208,7 @@
 
 .yandex__label {
   color: var(--accent-color, #000);
-  font-family: var(--PressStart2P-Regular);
+  font-family: var(--PressStart2P-Regular, sans-serif);
   font-size: 14px;
   font-weight: 400;
   text-transform: uppercase;
@@ -239,7 +239,7 @@
   font-size: 18px;
   font-weight: 400;
   margin-block-end: 30px;
-  line-height: 21px; /* 116.667% */
+  line-height: 21px; 
 }
 
 .yandex__main-section-use {
@@ -456,7 +456,7 @@ justify-content: center;
 
 .dialog__content-text {
   color: var(--accent-color, #000);
-  font-family: var(--PressStart2P-Regular);
+  font-family: var(--PressStart2P-Regular, sans-serif);
   font-size: 14px;
   font-weight: 400;
   line-height: 150%;
