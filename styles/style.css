@@ -326,7 +326,7 @@
   background-color: transparent;
   border: none;
   cursor: pointer;
-  padding: 16px;
+  padding: 15px;
 }
 
 .save__to-disk {
@@ -432,6 +432,11 @@
 
   .save__to-disk {
     flex-direction: column;
-    gap: 16px;
+    gap: 12px;
   }
+
+  .icon__floppy {
+    inline-size: 28px;
+    block-size: 28px;
+}
 }
