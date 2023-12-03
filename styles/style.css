@@ -316,9 +316,9 @@
 .save {
   display: flex;
   justify-content: center;
-  margin-block-start: 54px;
+  margin-block-start: 50px;
   margin-block-end: 105px;
-  inline-size: clamp(19.125rem, 18.496rem + 2.713vw, 20.938rem);
+  inline-size: clamp(19.125rem, 18.496rem + 3vw, 21.22rem);
 }
 
 .save__button {
@@ -326,7 +326,7 @@
   background-color: transparent;
   border: none;
   cursor: pointer;
-  padding: 13px;
+  padding: 16px;
 }
 
 .save__to-disk {
@@ -432,5 +432,6 @@
 
   .save__to-disk {
     flex-direction: column;
+    gap: 16px;
   }
 }
